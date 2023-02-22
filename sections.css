@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(211, 149, 245);
+}
+
+.sub-section{
+    background-color: white;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+.sub-section h2{
+    text-align: center;
+}
+
+#header{
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+#header h1{
+    text-align: center;
+}
+
+.section{
+    background-color: white;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+
+.section h2{
+    text-align: center;
+}

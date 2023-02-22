@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(211, 149, 245)
+}
+
+.pitt{
+    position: absolute;
+    width:400px;
+    height: 100px;
+    text-align: center;
+}
+.gracie{
+    position: absolute;
+    left: 400px;
+    width:400px;
+    height: 100px;
+    text-align: center;
+}
+
+#red{
+    background-color:  rgb(230,25,75);
+}
+#abstract{
+    outline-color:  rgb(230,25,75);
+}
+
+#intro{
+    outline-color:  rgb(245,130,48);
+}
+
+#methods{
+    outline-color:  rgb(255,225,25);
+}
+
+#results{
+    outline-color:  rgb(60,180,75);
+}
+
+#discussion{
+    outline-color:  rgb(70,240,240);
+}
+
+#conclusion{
+    outline-color:  rgb(0,130,200);
+}
+
+#citations{
+    outline-color:  rgb(145,30,180);
+}
+
+#names{
+    position: relative;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+#header{
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    outline-style: solid;
+    outline-offset: -10px;
+    outline-width: 6px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 20px;
+}
+#header h1{
+    text-align: center;
+}
+
+.section{
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 120px;
+    margin: auto;
+    outline-style: solid;
+    outline-offset: -10px;
+    outline-width: 6px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.section h2{
+    text-align: center;
+}
+
+.sub-section{
+    background-color: rgb(63, 111, 126);
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.sub-section h2{
+    text-align: center;
+}
+
+.barBackground{
+    margin:auto;
+    height: 20px;
+    width: 300px;
+    background-color: rgb(197, 195, 195);
+}
+
+.button{
+    height: 20px;
+    width: 70px;
+}
+.green{
+    height: 20px;
+    width: 0%;
+    background-color: rgb(22, 244, 6);
+}
+
+.pitt1{
+    position: absolute;
+    width:400px;
+    height: 600px;
+    text-align: center;
+}
+.gracie1{
+    position: absolute;
+    left: 400px;
+    width:400px;
+    height: 100%;
+    text-align: center;
+}
+
+.sub-page #header{
+    position: relative;
+    margin: auto;
+    height:100px;
+}
+
+
+
+.check{
+    position: relative;
+   margin: auto;
+    text-align: left;
+    height:20px;
+    background-color: white ;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
