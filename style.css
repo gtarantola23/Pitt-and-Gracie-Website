@@ -164,3 +164,26 @@ body{
     -ms-user-select: none;
     user-select: none;
   }
+
+  .buttonBack{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+  }
+  .home.button {
+    transition-duration: 0.4s;
+    border: none;
+    color: rgb(247, 9, 9);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+    height:40px;
+    background-color: white;
+  }
+
+  .home.button:hover {
+    background-color: rgb(246, 89, 89);
+    color: rgb(255, 255, 255);
+  }

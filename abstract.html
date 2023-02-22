@@ -9,6 +9,10 @@
 </head>
 
 <body class="sub-page abstract" id="red">
+    <div class="buttonBack">
+        <button class="home button" onclick="window.location.href='./index.html'">Home!</button>
+    </div>
+    
     <div id="header">
         <h1>Abstract</h1>
     </div>
@@ -40,33 +44,33 @@
     <div class="section gr">
         <div class="gracie1">
             <h2>Background</h2>
-            <input type="checkbox" id="con" onclick="moveSub('.abstract#graceOv',3)">
+            <input type="checkbox" id="back" onclick="moveSub('.abstract#graceOv',3,'#back')">
         </div>
         <div class="pitt1">
             <h2>1</h2>
-            <input type="checkbox" id="con" onclick="myFunction()">
+            <input type="checkbox" id="first" onclick="moveSub('.abstract#pittOv',3,'#first')">
                    
         </div>
     </div>
     <div class="section">
         <div class="gracie1">
             <h2>Summary</h2>
-            <input type="checkbox" id="con" onclick="myFunction()">       
+            <input type="checkbox" id="sum" onclick="moveSub('.abstract#graceOv',3,'#sum')">
         </div>
         <div class="pitt1">
             <h2>2</h2>
-            <input type="checkbox" id="con" onclick="myFunction()">
+            <input type="checkbox" id="sec" onclick="moveSub('.abstract#pittOv',3,'#sec')">
                    
         </div>
     </div>
     <div class="section">
         <div class="gracie1">
             <h2>Conclusion</h2>
-            <input type="checkbox" id="con" onclick="myFunction()"> 
+            <input type="checkbox" id="con" onclick="moveSub('.abstract#graceOv',3,'#con')">
        </div>
         <div class="pitt1">
             <h2>3</h2>
-            <input type="checkbox" id="con" onclick="myFunction()">
+            <input type="checkbox" id="three" onclick="moveSub('.abstract#pittOv',3,'#three')">
                    
         </div>
     </div>
